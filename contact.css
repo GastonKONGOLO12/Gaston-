@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.entete {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    align-items: center;
+    height: 100px;
+}
+
+.entete a {
+    border-right: 2px solid black;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.entete :last-child {
+    border: none
+}
+
+.description {
+    float: right;
+    margin-right: 150px;
+
+    line-height: 60px;
+}
+
+.menu {
+    line-height: 40px;
+    float: left;
+    margin-left: 150px;
+}
+
+.menu2 {
+    float: right;
+
+}
+
+.menu1 {
+
+    float: left;
+    margin-right: 40px;
+
+}
+
+.inp1,
+.inp2,
+.inp3 {
+    display: block;
+}
+
+.inp4,
+.inp5,
+.inp6 {
+    display: block;
+}
+
+.inp3 {
+    height: 20vh;
+    width: 30vh;
+}
+
+button {
+    background-color: rgb(196, 142, 25);
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10vh;
+    border: none;
+    font-weight: bold;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid black;
+    margin: 45px;
+}
+
+.footer1 {
+    justify-content: space-around;
+    margin-top: 500px;
+
+}
+
+.photo {
+    margin: 5px;
+
+}
+
+.facebook {
+    height: 40px;
+    padding: 2px;
+
+}
+
+.instagram {
+    height: 40px;
+    padding: 2px;
+}
+
+.Whatsapp {
+    height: 40px;
+    padding: 2px;
+}
+
+.linkedin {
+    height: 40px;
+    padding: 2px;
+    align-items: center;
+
+}
